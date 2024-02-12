@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Poiret_One } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const fontFamily = Poiret_One({ subsets: ["latin"], weight: "400" });
+const fontFamily = Montserrat({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
     title: "Goldwater Home Loans",
