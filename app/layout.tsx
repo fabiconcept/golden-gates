@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 
-const fontFamily = Montserrat({ subsets: ["latin"], weight: "400" });
+const fontFamily = Quicksand({ subsets: ["latin"], weight: "500" });
 
 export const metadata: Metadata = {
     title: "Goldwater Home Loans",

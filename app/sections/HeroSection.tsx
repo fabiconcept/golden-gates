@@ -21,7 +21,7 @@ export default function HeroSection() {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-[30rem] bg-slate-400 relative">
+            <div className="w-full xl:h-[40rem] h-[30rem] bg-slate-400 relative">
                 <Image
                     src={"https://golden-gates.sirv.com/bernard-hermant-KqOLr8OiQLU-unsplash.jpg"}
                     alt={"house"}
