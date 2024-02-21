@@ -16,7 +16,7 @@
   }
 }
 
-* {
+*:not(.no-transition) {
   transition: all .15s ease;
 }
 
