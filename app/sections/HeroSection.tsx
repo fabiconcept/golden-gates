@@ -1,64 +1,50 @@
-"use client"
 import Image from "next/image";
-import Team from "./components/Team";
-import Link from "next/link";
-import { FaAngleDown } from "react-icons/fa6"
-import { useEffect, useMemo, useState } from "react";
 
 export default function HeroSection() {
-    const [scrollPosition, setScrollPosition] = useState<number>(0);
-
-    const handleScroll = (): void => {
-        const scrollTop = window.scrollY;
-        setScrollPosition(scrollTop);
-     }
-
-     const zoomValue = useMemo(() => {
-        return (scrollPosition*0.0005) + 1;
-     }, [scrollPosition]);
-
-    useEffect(() => {
-        handleScroll();
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
-
     return (
-        <div className="w-screen h-screen relative text-white">
-            <div className="top-0 left-0 absolute grid place-items-center w-full h-full overflow-hidden bg-black select-none pointer-events-none">
+        <section className="py-8 md:px-24 px-8 grid md:grid-cols-2 grid-cols-1 gap-8">
+            <div className="grid place-content-center sm:text-left text-center">
+                <h1 className="sm:text-6xl text-5xl font-bold py-6 relative">
+                    Your Property Our Priority. 
+                    <p>Just in <i>Goldwater</i></p>
+                </h1>
+                <p className="text-lg opacity-50 max-w-[90%]">
+                    We are ready to help you find a comfort home based on what you need. So what are you waiting for?
+                </p>
+
+                <div className="mt-6 flex gap-4 md:pr-12 text-center">
+                    <div className="flex-1 p-8 py-4 bg-orange-400 border-2 border-transparent text-white active:scale-90 hover:scale-105 grid place-items-center">
+                        Request a Loan
+                    </div>
+                    <div className="flex-1 p-8 py-4 text-orange-400 border-2 border-orange-400 hover:bg-orange-400 hover:border-transparent hover:text-white active:scale-90 hover:scale-105 grid place-items-center">
+                        Contact us
+                    </div>
+                </div>
+            </div>
+            <div className="w-full h-[30rem] bg-slate-400 relative">
                 <Image
-                    src={"https://golden-gates.sirv.com/pexels-the-lazy-artist-gallery-1642125.jpg"}
-                    width={1500}
-                    height={1500}
-                    alt="bg-one"
+                    src={"https://golden-gates.sirv.com/bernard-hermant-KqOLr8OiQLU-unsplash.jpg"}
+                    alt={"house"}
+                    height={1000}
+                    width={1000}
                     priority
-                    style={{
-                        transform: `scale(${zoomValue})`
-                    }}
-                    className="object-cover h-full min-w-full opacity-60 saturate-150 brightness-50 no-transition"
+                    className={"w-full h-full object-cover"}
                 />
-            </div>
-
-            <div className="flex flex-col items-center justify-between xl:pt-40 md:pt-[25vh] pt-[30vh] relative z-10 h-full">
-                <div className="flex flex-col items-center w-full -gap-4">
-                    <div className="relative z-10 -mb-4 -rotate-2 bg-black/20 border border-white/60 font-semibold capitalize sm:text-sm text-xs px-8 py-1 backdrop-blur-lg w-fit rounded-3xl">we have an offer for you!</div>
-                    <div className="backdrop-blur-sm w-fit xl:max-w-[50%] md:max-w-[60%] max-w-[80%] bg-black/20 bg-gradient-to-b from-white/30 to-transparent relative border border-white/50 rounded-[5rem] py-6 sm:px-12 px-6 xl:text-6xl lg:text-5xl md:text-3xl text-3xl text-center font-semibold flex flex-col items-center">
-                        <span>A dream residence at our <span className="text-primary-color-500">Jungle House</span>.</span>
+                <div className="absolute bottom-0 w-full rounded-t-[5rem] bg-white p-4 sm:px-12 px-6 grid grid-cols-3 place-content-center">
+                    <div className="flex flex-col items-center">
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">9k<span className="text-orange-400">+</span></h1>
+                        <span className="opacity-50 sm:text-base text-sm">Project complete</span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">3k<span className="text-orange-400">+</span></h1>
+                        <span className="opacity-50 sm:text-base text-sm">Satisfied clients</span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">1k<span className="text-orange-400">+</span></h1>
+                        <span className="opacity-50 sm:text-base text-sm">Awards recieved</span>
                     </div>
                 </div>
-                <div className="p-6 px-12 flex md:justify-between justify-center w-full items-end">
-                    <div className="md:block hidden">
-                        <Team />
-                    </div>
-                    <Link href={"#"} className="flex sm:flex-row flex-col gap-2 items-center justify-center cursor-pointer">
-                        Explorer 
-                        <FaAngleDown />
-                    </Link>
-                </div>
             </div>
-
-        </div>
+        </section>
     )
 }
