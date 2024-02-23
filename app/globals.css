@@ -11,3 +11,13 @@
     text-wrap: balance;
   }
 }
+
+.grided-white {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1) .1em, transparent .1em), linear-gradient(90deg, rgba(255, 255, 255, 0.1) .1em, transparent .1em);
+  background-size: 2em 2em;
+}
+
+.grided-black {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.015) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, 0.015) .1em, transparent .1em);
+  background-size: 2em 2em;
+}
