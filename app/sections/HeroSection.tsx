@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section className="pt-12 md:px-24 px-8 grid md:grid-cols-2 grid-cols-1 gap-8 w-full max-w-[1400px] mx-auto">
+        <section className="pt-12 md:px-24 px-4 grid md:grid-cols-2 grid-cols-1 gap-8 w-full max-w-[1400px] mx-auto">
             <div className="grid place-content-center sm:text-left text-center">
                 <h1 className="sm:text-6xl text-5xl font-bold py-6 relative">
                     Your Property Our Priority. 
                     <p>Just in <i>Goldwater</i></p>
                 </h1>
-                <p className="text-lg opacity-50 max-w-[90%]">
+                <p className="text-lg opacity-50 sm:max-w-[90%]">
                     We are ready to help you find a comfort home based on what you need. So what are you waiting for?
                 </p>
 
@@ -30,7 +30,7 @@ export default function HeroSection() {
                     priority
                     className={"w-full h-full object-cover"}
                 />
-                <div className="absolute bottom-0 w-full rounded-t-[5rem] bg-white p-4 sm:px-12 px-6 grid grid-cols-3 place-content-center">
+                <div className="absolute bottom-0 w-full sm:rounded-t-[5rem] rounded-t-[3rem] text-center bg-white p-4 sm:px-12 px-6 grid grid-cols-3 place-content-center">
                     <div className="flex flex-col items-center">
                         <h1 className="sm:text-4xl text-xl font-semibold opacity-80">9k<span className="text-orange-400">+</span></h1>
                         <span className="opacity-50 sm:text-base text-sm">Project complete</span>

@@ -8,7 +8,7 @@ export default function WhyUs() {
     return (
         <section className="py-16 sm:px-24 px-8 bg-white/50">
             <section className="max-w-[1400px] mx-auto">
-                <h2 className="text-4xl font-semibold py-5">Why choose us?</h2>
+                <h2 className="text-4xl font-semibold pt-5 pb-12">Why choose us?</h2>
                 <section className="grid md:grid-cols-2 grid-cols-1 w-full md:gap-12 gap-24">
 
                     <div className="flex flex-col gap-6">
@@ -34,7 +34,7 @@ export default function WhyUs() {
                                 />
                             </div>
 
-                            <div className="absolute bottom-[20%] left-[15%] w-[60%] p-3 bg-white shadow border grided-black border-black/20 flex flex-col gap-2">
+                            <div className="absolute sm:bottom-[20%] -top-[5%] left-[15%] w-[16rem] h-fit p-3 bg-white shadow border grided-black border-black/20 flex flex-col gap-2">
                                 <span className="text-sm font-semibold">Head cloudy residence</span>
                                 <p className="flex items-center">
                                     <span className="text-base p-3 text-orange-400"><FaMapPin /></span>
@@ -42,7 +42,7 @@ export default function WhyUs() {
                                 </p>
                             </div>
 
-                            <div className="absolute -bottom-[10%] left-[0%] w-[60%] p-3 bg-white shadow border grided-black border-black/20 flex flex-col gap-2">
+                            <div className="absolute -bottom-[10%] left-[0%] w-[16rem] p-3 bg-white shadow border grided-black border-black/20 flex flex-col gap-2">
                                 <span className="text-sm font-semibold">Head cloudy residence</span>
                                 <p className="flex items-center">
                                     <span className="text-base p-3 text-orange-400"><FaMapPin /></span>

@@ -8,7 +8,7 @@ export default function Reviews() {
                 <h1 className="text-4xl font-semibold py-5 text-center">What are our Clients saying?</h1>
 
                 <div className="grid grid-cols-[repeat(auto-fill,minmax(20rem,1fr))] justify-center gap-4 mt-6">
-                    <div className="border border-transparent hover:border-black/5 hover:scale-105 hover:bg-white bg-white/50 p-4">
+                    <div className="border border-transparent hover:border-black/5 hover:scale-105 hover:bg-white bg-white/50 p-4 smooth">
                         <div className="flex items-center gap-4">
                             <div className="h-12 w-12 rounded-full border overflow-hidden">
                                 <Image
@@ -37,7 +37,7 @@ export default function Reviews() {
                             <span className="text-yellow-400"><FaStar /></span>
                         </div>
                     </div>
-                    <div className="border border-transparent hover:border-black/5 hover:scale-105 hover:bg-white bg-white/50 p-4">
+                    <div className="border border-transparent hover:border-black/5 hover:scale-105 hover:bg-white bg-white/50 p-4 smooth">
                         <div className="flex items-center gap-4">
                             <div className="h-12 w-12 rounded-full border overflow-hidden">
                                 <Image
@@ -66,7 +66,7 @@ export default function Reviews() {
                             <span className="text-yellow-400"><FaStar /></span>
                         </div>
                     </div>
-                    <div className="border border-transparent hover:border-black/5 hover:scale-105 hover:bg-white bg-white/50 p-4">
+                    <div className="border border-transparent hover:border-black/5 hover:scale-105 hover:bg-white bg-white/50 p-4 smooth">
                         <div className="flex items-center gap-4">
                             <div className="h-12 w-12 rounded-full border overflow-hidden">
                                 <Image
