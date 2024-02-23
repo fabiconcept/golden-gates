@@ -80,8 +80,8 @@ export default function EasyService() {
                     </div>
                 </motion.div>
                 <motion.div 
-                    ref={section01Ref}
-                    animate={controls}
+                    ref={section02Ref}
+                    animate={controls02}
                     initial="hidden"
                     variants={fadeInOutVariants02}
                     transition={{ duration: 0.5 }} 

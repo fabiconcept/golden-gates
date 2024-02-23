@@ -62,12 +62,12 @@ export default function WhyUs() {
 
                     <motion.div 
                         className="flex flex-col gap-6"
-                        ref={section02Ref}
+                        ref={section01Ref}
                     >
                         <div className="relative min-h-[30rem] h-full w-full">
                             <motion.div 
                                 className="absolute h-[70%] w-[70%] bg-black"
-                                animate={controls02}
+                                animate={controls}
                                 initial="hidden"
                                 variants={fadeInOutVariantsImg01}
                                 transition={{ duration: 0.5 }}
@@ -83,7 +83,7 @@ export default function WhyUs() {
                             </motion.div>
                             <motion.div 
                                 className="absolute h-[70%] w-[70%] bottom-[0%] right-0"
-                                animate={controls02}
+                                animate={controls}
                                 initial="hidden"
                                 variants={fadeInOutVariantsImg02}
                                 transition={{ duration: 0.5 }}
@@ -100,7 +100,7 @@ export default function WhyUs() {
 
                             <motion.div 
                                 className="absolute sm:bottom-[20%] -top-[5%] left-[15%] w-[16rem] h-fit p-3 bg-white shadow border grided-black border-black/20 flex flex-col gap-2"
-                                animate={controls02}
+                                animate={controls}
                                 initial="hidden"
                                 variants={fadeInOutVariantsText01}
                                 transition={{ duration: 0.5 }}
@@ -114,7 +114,7 @@ export default function WhyUs() {
 
                             <motion.div 
                                 className="absolute -bottom-[10%] left-[0%] w-[16rem] p-3 bg-white shadow border grided-black border-black/20 flex flex-col gap-2"
-                                animate={controls02}
+                                animate={controls}
                                 initial="hidden"
                                 variants={fadeInOutVariantsText02}
                                 transition={{ duration: 0.5 }}
