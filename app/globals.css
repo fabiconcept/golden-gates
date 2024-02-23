@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*:not(.no-transition) {
+* .smooth {
   transition: all .15s ease;
 }
 
