@@ -57,7 +57,7 @@ export default function GetApproved() {
                             className={"w-full h-full object-cover"}
                         />
                     </div>
-                    <h2 className="text-3xl py-4 font-semibold">Get pre-approved {`${inView01}`} {`${inView02}`}</h2>
+                    <h2 className="text-3xl py-4 font-semibold">Get pre-approved</h2>
                     <p className="opacity-70">We&apos;ll collect some information about you and the type of home that you&apos;re looking for, and then we&apos;ll provide you with a pre-approval letter to use when you&apos;re ready.</p>
                     <div className="w-fit mt-4 p-8 py-4 smooth cursor-pointer select-none border-2 border-orange-400 hover:bg-orange-400 hover:border-transparent hover:text-white active:scale-90 hover:scale-105">
                         Get Started
