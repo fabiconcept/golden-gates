@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ClientsSection() {
     return (
         <section className="w-full grided-white p-6 bg-orange-400 flex justify-center text-white">
-            <div className="w-full flex items-center justify-center flex-wrap gap-12 filter brightness-0 invert">
+            <div className="w-full flex items-center justify-center sm:gap-12 gap-6 sm:scale-100 scale-[0.85] filter brightness-0 invert">
                 <Image
                     src={"https://golden-gates.sirv.com/forbes.svg"}
                     alt=""

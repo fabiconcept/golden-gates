@@ -12,7 +12,7 @@ export default function Reviews() {
                         <div className="flex items-center gap-4">
                             <div className="h-12 w-12 rounded-full border overflow-hidden">
                                 <Image
-                                    src={"https://golden-gates.sirv.com/model-3.jpg"}
+                                    src={"https://golden-gates.sirv.com/pexels-craig-adderley-3658708.jpg"}
                                     alt={"house"}
                                     height={1000}
                                     width={1000}
@@ -21,13 +21,13 @@ export default function Reviews() {
                                 />
                             </div>
                             <div>
-                                <h3 className="text-lg font-semibold">Sarah Gwerry</h3>
-                                <p className="opacity-60">Wordpress Developer</p>
+                                <h3 className="text-lg font-semibold">Maria Rodriguez</h3>
+                                <p className="opacity-60">Financial Analyst</p>
                             </div>
                         </div>
                         <div className="mt-4">
-                            <h5 className="font-semibold">Good work</h5>
-                            <p className="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cum. Voluptas maxime illum eius deleniti!</p>
+                            <h5 className="font-semibold">Effortless pre-approval</h5>
+                            <p className="opacity-50">Effortless pre-approval, expert guidance, and a seamless move-in process. This mortgage service delivers a five-star home buying experience!</p>
                         </div>
                         <div className="flex gap-3 items-center py-4">
                             <span className="text-yellow-400"><FaStar /></span>
@@ -41,7 +41,7 @@ export default function Reviews() {
                         <div className="flex items-center gap-4">
                             <div className="h-12 w-12 rounded-full border overflow-hidden">
                                 <Image
-                                    src={"https://golden-gates.sirv.com/model-4.jpg"}
+                                    src={"https://golden-gates.sirv.com/pexels-david-kwewum-2743754.jpg"}
                                     alt={"house"}
                                     height={1000}
                                     width={1000}
@@ -50,13 +50,13 @@ export default function Reviews() {
                                 />
                             </div>
                             <div>
-                                <h3 className="text-lg font-semibold">Sarah Gwerry</h3>
-                                <p className="opacity-60">Wordpress Developer</p>
+                                <h3 className="text-lg font-semibold">Jamal Thompson</h3>
+                                <p className="opacity-60">Software Engineer</p>
                             </div>
                         </div>
                         <div className="mt-4">
-                            <h5 className="font-semibold">Good work</h5>
-                            <p className="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cum. Voluptas maxime illum eius deleniti!</p>
+                            <h5 className="font-semibold">Quick pre-approval</h5>
+                            <p className="opacity-50">Quick pre-approval, invaluable agent support, and a smooth transition to my dream home. Exceptional service from start to finish!</p>
                         </div>
                         <div className="flex gap-3 items-center py-4">
                             <span className="text-yellow-400"><FaStar /></span>
@@ -79,13 +79,13 @@ export default function Reviews() {
                                 />
                             </div>
                             <div>
-                                <h3 className="text-lg font-semibold">Sarah Gwerry</h3>
-                                <p className="opacity-60">Wordpress Developer</p>
+                                <h3 className="text-lg font-semibold">Kelsey White</h3>
+                                <p className="opacity-60">Marketing Specialist</p>
                             </div>
                         </div>
                         <div className="mt-4">
-                            <h5 className="font-semibold">Good work</h5>
-                            <p className="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cum. Voluptas maxime illum eius deleniti!</p>
+                            <h5 className="font-semibold">Top-notch experience</h5>
+                            <p className="opacity-50">Top-notch experience! Efficient pre-approval, outstanding agent guidance, and a joyful move-in. Highly recommend for a pleasant home buying journey!</p>
                         </div>
                         <div className="flex gap-3 items-center py-4">
                             <span className="text-yellow-400"><FaStar /></span>

@@ -135,17 +135,20 @@ export default function WhyUs() {
                         variants={fadeInOutVariants02}
                         transition={{ duration: 0.5 }}
                     >
-                        <h2 className="text-3xl font-semibold">We have good experience and good work.</h2>
-                        <p className="py-5 text-xl opacity-50">We provide various models for you at affordable price and best quality.</p>
+                        <h2 className="text-3xl font-semibold">We have a proven track record of Success.</h2>
+                        <p className="py-5 text-xl opacity-50">We provide competitive loan options at the price you want without the fees.</p>
                         <div className="py-6">
-                            <h3 className="text-xl font-semibold opacity-70">Current Project</h3>
-                            <h1 className="text-2xl font-bold py-2">899k+</h1>
-                            <p className="opacity-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, id rerum dolor officia dolores temporibus?</p>
+                            <h3 className="text-xl font-semibold opacity-70">Save Time</h3>
+                            <h1 className="text-2xl font-bold py-2">18 Days</h1>
+                            <p className="opacity-50">Close your home fast and hassle free. Leverage the speed of Goldwater&apos;s lightning fast
+                                financing to get ahead of the competition. With ana average of 18 days from loan
+                                submission to close we are industry experts with a reputation for speed.</p>
                         </div>
                         <div className="py-6">
-                            <h3 className="text-xl font-semibold opacity-70">Worked</h3>
-                            <h1 className="text-2xl font-bold py-2">300+</h1>
-                            <p className="opacity-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, id rerum dolor officia dolores temporibus?</p>
+                            <h3 className="text-xl font-semibold opacity-70">Save Money</h3>
+                            <h1 className="text-2xl font-bold py-2">2K+</h1>
+                            <p className="opacity-50">We&apos;ll match you with the right loan program for you, saving the average client on
+                                average 2k+ in closing costs.</p>
                         </div>
                     </motion.div>
                 </section>

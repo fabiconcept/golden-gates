@@ -5,16 +5,17 @@ export default function HeroSection() {
         <section className="pt-12 md:px-24 px-4 grid md:grid-cols-2 grid-cols-1 gap-8 w-full max-w-[1400px] mx-auto">
             <div className="grid place-content-center sm:text-left text-center">
                 <h1 className="sm:text-6xl text-5xl font-bold py-6 relative">
-                    Your Property Our Priority. 
-                    <p>Just in <i>Goldwater</i></p>
+                    Home Loans Made Easy
+                    <span>: <i>Goldwater</i></span>
                 </h1>
                 <p className="text-lg opacity-50 sm:max-w-[90%]">
-                    We are ready to help you find a comfort home based on what you need. So what are you waiting for?
+                    Discover a seamless process, competitive rates, and access to hundreds of loan programs.
+                    Apply now in as little as 5 minutes.
                 </p>
 
                 <div className="mt-6 flex gap-4 md:pr-12 text-center">
                     <div className="flex-1 p-8 py-4 smooth cursor-pointer select-none bg-orange-400 border-2 border-transparent text-white active:scale-90 hover:scale-105 grid place-items-center">
-                        Request a Loan
+                        Apply Now
                     </div>
                     <div className="flex-1 p-8 py-4 smooth cursor-pointer select-none text-orange-400 border-2 border-orange-400 hover:bg-orange-400 hover:border-transparent hover:text-white active:scale-90 hover:scale-105 grid place-items-center">
                         Contact us
@@ -32,16 +33,16 @@ export default function HeroSection() {
                 />
                 <div className="absolute bottom-0 w-full sm:rounded-t-[5rem] rounded-t-[3rem] text-center bg-white p-4 sm:px-12 px-6 grid grid-cols-3 place-content-center">
                     <div className="flex flex-col items-center">
-                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">9k<span className="text-orange-400">+</span></h1>
-                        <span className="opacity-50 sm:text-base text-sm">Project complete</span>
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">80M<span className="text-orange-400">+</span></h1>
+                        <span className="opacity-50 sm:text-base text-sm">In Loan Volume</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">3k<span className="text-orange-400">+</span></h1>
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">2k<span className="text-orange-400">+</span></h1>
                         <span className="opacity-50 sm:text-base text-sm">Satisfied clients</span>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="sm:text-4xl text-xl font-semibold opacity-80">1k<span className="text-orange-400">+</span></h1>
-                        <span className="opacity-50 sm:text-base text-sm">Awards recieved</span>
+                        <span className="opacity-50 sm:text-base text-sm">Loan programs</span>
                     </div>
                 </div>
             </div>

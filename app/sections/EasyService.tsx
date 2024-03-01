@@ -53,29 +53,29 @@ export default function EasyService() {
                     <div className="flex gap-4 mt-8">
                         <div className="bg-orange-400 text-3xl px-2 py-1 h-fit text-white">01</div>
                         <div>
-                            <h2 className="text-xl font-semibold">Find you comfort</h2>
-                            <p className="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem enim, iure veniam cupiditate nam.</p>
+                            <h2 className="text-xl font-semibold">Get Pre-approved</h2>
+                            <p className="opacity-50">Discover a hassle-free pre-approval process tailored to your needs. Our streamlined approach ensures swift decisions and clear pathways to homeownership.</p>
                         </div>
                     </div>
                     <div className="flex gap-4">
                         <div className="bg-orange-400 text-3xl px-2 py-1 h-fit text-white">02</div>
                         <div>
-                            <h2 className="text-xl font-semibold">Get your agent</h2>
-                            <p className="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem enim, iure veniam cupiditate nam.</p>
+                            <h2 className="text-xl font-semibold">Connect with an Agent</h2>
+                            <p className="opacity-50">Experience personalized assistance as you navigate the real estate landscape. Our dedicated agents are committed to guiding you towards your dream home, ensuring a smooth journey.</p>
                         </div>
                     </div>
                     <div className="flex gap-4">
                         <div className="bg-orange-400 text-3xl px-2 py-1 h-fit text-white">03</div>
                         <div>
-                            <h2 className="text-xl font-semibold">Move in</h2>
-                            <p className="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem enim, iure veniam cupiditate nam.</p>
+                            <h2 className="text-xl font-semibold">Settle into Your New Home</h2>
+                            <p className="opacity-50">Effortlessly transition into homeownership with our expert support. We simplify the move-in process, providing you with the keys to your new home sooner than you think.</p>
                         </div>
                     </div>
                     <div className="flex gap-4">
                         <div className="bg-orange-400 text-3xl px-2 py-1 h-fit text-white">04</div>
                         <div>
-                            <h2 className="text-xl font-semibold">Pay whenever you want</h2>
-                            <p className="opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem enim, iure veniam cupiditate nam.</p>
+                            <h2 className="text-xl font-semibold">Indulge in Homeownership Bliss</h2>
+                            <p className="opacity-50">Revel in the joys of your new home. Our commitment to excellence ensures that your homeownership experience is not just a transaction but a delightful journey.</p>
                         </div>
                     </div>
                 </motion.div>
