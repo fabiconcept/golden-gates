@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section className="pt-12 md:px-24 px-4 grid md:grid-cols-2 grid-cols-1 gap-8 w-full max-w-[1400px] mx-auto">
+        <section className="pt-12 sm:px-24 md:px-8 px-4 grid md:grid-cols-2 grid-cols-1 gap-8 w-full max-w-[1400px] mx-auto">
             <div className="grid place-content-center sm:text-left text-center">
                 <h1 className="sm:text-6xl text-5xl font-bold py-6 relative">
                     Home Loans Made Easy

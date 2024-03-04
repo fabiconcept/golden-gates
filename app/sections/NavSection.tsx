@@ -20,13 +20,13 @@ export default function NavSection() {
                         className="h-8 object-contain w-fit z-30"
                     />
 
-                    <div className="items-center list-none md:flex hidden">
-                        <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">For Rent</Link>
-                        <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">For Sale</Link>
-                        <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Blog</Link>
-                        <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Contact Us</Link>
-                    </div>
                 </section>
+                <div className="items-center list-none md:flex hidden">
+                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">For Rent</Link>
+                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">For Sale</Link>
+                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Blog</Link>
+                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Contact Us</Link>
+                </div>
 
                 <section className="flex gap-4 items-center">
                     <div className="bg-orange-400 smooth text-white p-8 py-3 font-semibold cursor-pointer active:scale-90 hover:scale-105 select-none sm:block hidden">
