@@ -10,7 +10,7 @@ import WhyUs from "./sections/WhyUs";
 
 export default function page() {
     return (
-        <div className="bg-[rgb(0,0,0,0.0125)] min-h-screen grided-black overflow-x-hidden">
+        <div className="bg-[rgb(0,0,0,0.0125)] scroll-smooth min-h-screen grided-black overflow-x-hidden">
             <NavSection />
             <HeroSection />
             <ClientsSection />

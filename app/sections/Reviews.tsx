@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa6";
 
 export default function Reviews() {
     return (
-        <div className="py-8 bg-white/40">
+        <div className="py-8 bg-white/40" id="clientsreviews">
             <section className="max-w-[1400px] mx-auto py-8 sm:px-24 px-8">
                 <h1 className="text-4xl font-semibold py-5 text-center">What are our Clients saying?</h1>
 

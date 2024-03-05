@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import { FaMapPin } from "react-icons/fa6";    
+import { FaHouseUser, FaMoneyCheckDollar } from "react-icons/fa6";    
 import { useAnimation, motion } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
@@ -55,7 +55,7 @@ export default function WhyUs() {
 
 
     return (
-        <section className="py-16 sm:px-24 px-8 bg-white/50">
+        <section className="py-16 sm:px-24 px-8 bg-white/50" id="whyus">
             <section className="max-w-[1400px] mx-auto">
                 <h2 className="text-4xl font-semibold pt-5 pb-12">Why choose us?</h2>
                 <section className="grid md:grid-cols-2 grid-cols-1 w-full md:gap-12 gap-24">
@@ -105,10 +105,12 @@ export default function WhyUs() {
                                 variants={fadeInOutVariantsText01}
                                 transition={{ duration: 0.5 }}
                             >
-                                <span className="text-sm font-semibold">Head cloudy residence</span>
+                                <span className="text-sm font-semibold">First-Time Homebuyer Programs</span>
                                 <p className="flex items-center">
-                                    <span className="text-base p-3 text-orange-400"><FaMapPin /></span>
-                                    <span className="text-xs opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis obcaecati autem cum magni! Distinctio, nihil?</span>
+                                    <span className="text-base p-3 text-orange-400"><FaHouseUser /></span>
+                                    <span className="text-xs opacity-50">
+                                    &quot;Seamless first-time homeownership: exclusive programs and expert guidance awaits you here!&quot;
+                                    </span>
                                 </p>
                             </motion.div>
 
@@ -119,10 +121,12 @@ export default function WhyUs() {
                                 variants={fadeInOutVariantsText02}
                                 transition={{ duration: 0.5 }}
                             >
-                                <span className="text-sm font-semibold">Head cloudy residence</span>
+                                <span className="text-sm font-semibold">Investment Loan Programs</span>
                                 <p className="flex items-center">
-                                    <span className="text-base p-3 text-orange-400"><FaMapPin /></span>
-                                    <span className="text-xs opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis obcaecati autem cum magni! Distinctio, nihil?</span>
+                                    <span className="text-base p-3 text-orange-400"><FaMoneyCheckDollar /></span>
+                                    <span className="text-xs opacity-50">
+                                    &quot;Elevate your investment with our exclusive Investment Loan Programs - tailored solution and expert guidance awaits!&quot;
+                                    </span>
                                 </p>
                             </motion.div>
                         </div>

@@ -39,7 +39,7 @@ export default function EasyService() {
 
 
     return (
-        <div className="py-8 bg-white">
+        <div className="py-8 bg-white" id="easysteps">
             <section className="max-w-[1400px] mx-auto grid md:grid-cols-2 grid-cols-1 gap-8 py-8 sm:px-24 px-4">
                 <motion.div 
                     ref={section01Ref}

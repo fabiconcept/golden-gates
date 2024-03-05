@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
     return (
@@ -14,12 +15,12 @@ export default function HeroSection() {
                 </p>
 
                 <div className="mt-6 flex gap-4 md:pr-12 text-center">
-                    <div className="flex-1 p-8 py-4 smooth cursor-pointer select-none bg-orange-400 border-2 border-transparent text-white active:scale-90 hover:scale-105 grid place-items-center">
+                    <Link href={"goldwater.floify.com"} target="_blank" className="flex-1 p-8 py-4 smooth cursor-pointer select-none bg-orange-400 border-2 border-transparent text-white active:scale-90 hover:scale-105 grid place-items-center">
                         Apply Now
-                    </div>
-                    <div className="flex-1 p-8 py-4 smooth cursor-pointer select-none text-orange-400 border-2 border-orange-400 hover:bg-orange-400 hover:border-transparent hover:text-white active:scale-90 hover:scale-105 grid place-items-center">
+                    </Link>
+                    <Link href={"#contact"} className="flex-1 p-8 py-4 smooth cursor-pointer select-none text-orange-400 border-2 border-orange-400 hover:bg-orange-400 hover:border-transparent hover:text-white active:scale-90 hover:scale-105 grid place-items-center">
                         Contact us
-                    </div>
+                    </Link>
                 </div>
             </div>
             <div className="w-full xl:h-[40rem] h-[30rem] bg-slate-400 relative">

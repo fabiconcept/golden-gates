@@ -22,16 +22,16 @@ export default function NavSection() {
 
                 </section>
                 <div className="items-center list-none md:flex hidden">
-                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">For Rent</Link>
-                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">For Sale</Link>
-                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Blog</Link>
-                    <Link href={"#"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Contact Us</Link>
+                    <Link href={"#service"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Services</Link>
+                    <Link href={"#whyus"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Why us</Link>
+                    <Link href={"#easysteps"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Easy steps</Link>
+                    <Link href={"#clientsreviews"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Clients reviews</Link>
                 </div>
 
                 <section className="flex gap-4 items-center">
-                    <div className="bg-orange-400 smooth text-white p-8 py-3 font-semibold cursor-pointer active:scale-90 hover:scale-105 select-none sm:block hidden">
+                    <Link href={"goldwater.floify.com"} target="_blank" className="bg-orange-400 smooth text-white p-8 py-3 font-semibold cursor-pointer active:scale-90 hover:scale-105 select-none sm:block hidden">
                         Apply now
-                    </div>
+                    </Link>
                     <div className='w-[25px] grid md:hidden gap-1 cursor-pointer smooth z-30' onClick={() => setOpenNav(!openNav)}>
                         <div className={`
                         h-[2px] w-full bg-black smooth

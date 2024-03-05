@@ -38,7 +38,7 @@ export default function GetApproved() {
 
 
     return (
-        <section className="py-16 sm:px-24 px-8 bg-white/50">
+        <section className="py-16 sm:px-24 px-8 bg-white/50" id="service">
             <section className="max-w-[1400px] mx-auto grid md:grid-cols-2 grid-cols-1 w-full md:gap-12 gap-24">
                 <motion.div 
                     ref={section01Ref}
