@@ -141,7 +141,7 @@ export default function WhyUs() {
                         transition={{ duration: 0.5 }}
                     >
                         <h2 className="text-3xl font-semibold">We have a proven track record of Success.</h2>
-                        <p className="py-5 text-xl opacity-50">We provide competitive loan options at the price you want without the fees.</p>
+                        <p className="py-5 sm:text-xl text-base opacity-50">We provide competitive loan options at the price you want without the fees.</p>
                         <div className="py-6">
                             <h3 className="text-xl font-semibold opacity-70">Save Time</h3>
                             <h1 className="text-2xl font-bold py-2 text-orange-400"><Counter key={"18d"} value={18}/> Days</h1>
