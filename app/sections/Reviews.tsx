@@ -8,7 +8,7 @@ import { reviewsData } from "@/lib";
 export default function Reviews() {
     return (
         <div className="py-8 bg-white/40" id="clientsreviews">
-            <section className="max-w-[1400px] mx-auto py-8 sm:px-24 px-8">
+            <section className="max-w-[1400px] mx-auto py-8 sm:px-24 md:px-8 px-4">
                 <h1 className="text-4xl font-semibold py-5 text-center mb-4">What are our Clients saying?</h1>
 
                 <SwiperContainer>
