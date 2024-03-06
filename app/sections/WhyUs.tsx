@@ -56,7 +56,7 @@ export default function WhyUs() {
 
 
     return (
-        <section className="py-16 sm:px-24 px-8 bg-white/50" id="whyus">
+        <section className="py-16 sm:px-24 md:px-8 px-4 bg-white/50" id="whyus">
             <section className="max-w-[1400px] mx-auto">
                 <h2 className="text-4xl font-semibold pt-5 pb-12">Why choose us?</h2>
                 <section className="grid md:grid-cols-2 grid-cols-1 w-full md:gap-12 gap-24">

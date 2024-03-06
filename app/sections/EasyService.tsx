@@ -47,7 +47,7 @@ export default function EasyService() {
                     initial="hidden"
                     variants={fadeInOutVariants}
                     transition={{ duration: 0.5 }} 
-                    className="flex flex-col gap-6 sm:px-0 px-4"
+                    className="flex flex-col gap-6 sm:px-0 px-2"
                 >
                     <h1 className="sm:text-5xl text-3xl sm:text-left text-center uppercase font-semibold">Easy steps to use our service</h1>
                     <div className="flex gap-4 mt-8">
