@@ -4,6 +4,7 @@ import { FaHouseUser, FaMoneyCheckDollar } from "react-icons/fa6";
 import { useAnimation, motion } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from 'react-intersection-observer';
+import Counter from "../components/AnimatedCountingNumbers";
 
 
 export default function WhyUs() {
@@ -109,7 +110,7 @@ export default function WhyUs() {
                                 <p className="flex items-center">
                                     <span className="text-base p-3 text-orange-400"><FaHouseUser /></span>
                                     <span className="text-xs opacity-50">
-                                    &quot;Seamless first-time homeownership: exclusive programs and expert guidance awaits you here!&quot;
+                                    &quot;We have countless first time Homebuyer programs designed to save you time and money!&quot;
                                     </span>
                                 </p>
                             </motion.div>
@@ -125,7 +126,7 @@ export default function WhyUs() {
                                 <p className="flex items-center">
                                     <span className="text-base p-3 text-orange-400"><FaMoneyCheckDollar /></span>
                                     <span className="text-xs opacity-50">
-                                    &quot;Elevate your investment with our exclusive Investment Loan Programs - tailored solution and expert guidance awaits!&quot;
+                                    &quot;Elevate your investment portfolio with our exclusive investment loan programs - Expert guidance awaits you here!&quot;
                                     </span>
                                 </p>
                             </motion.div>
@@ -143,16 +144,16 @@ export default function WhyUs() {
                         <p className="py-5 text-xl opacity-50">We provide competitive loan options at the price you want without the fees.</p>
                         <div className="py-6">
                             <h3 className="text-xl font-semibold opacity-70">Save Time</h3>
-                            <h1 className="text-2xl font-bold py-2">18 Days</h1>
+                            <h1 className="text-2xl font-bold py-2 text-orange-400"><Counter value={18}/> Days</h1>
                             <p className="opacity-50">Close your home fast and hassle free. Leverage the speed of Goldwater&apos;s lightning fast
-                                financing to get ahead of the competition. With ana average of 18 days from loan
+                                financing to get ahead of the competition. With ana average of <Counter value={18}/> days from loan
                                 submission to close we are industry experts with a reputation for speed.</p>
                         </div>
                         <div className="py-6">
                             <h3 className="text-xl font-semibold opacity-70">Save Money</h3>
-                            <h1 className="text-2xl font-bold py-2">2K+</h1>
+                            <h1 className="text-2xl font-bold py-2 text-orange-400"><Counter value={2000}/>+</h1>
                             <p className="opacity-50">We&apos;ll match you with the right loan program for you, saving the average client on
-                                average 2k+ in closing costs.</p>
+                                average <Counter value={2000}/>+ in closing costs.</p>
                         </div>
                     </motion.div>
                 </section>

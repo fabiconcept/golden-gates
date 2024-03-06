@@ -80,7 +80,7 @@ export default function GetApproved() {
                             className={"w-full h-full object-cover"}
                         />
                     </div>
-                    <h2 className="text-3xl py-4 font-semibold">Find a loan program tailored to you</h2>
+                    <h2 className="text-3xl py-4 font-semibold">Mortagage Loans Tailored for You</h2>
                     <p className="opacity-70">Are you a service member? Are you looking to get cash out? Do you have poor credit history? We offer a range of programs that can be tailored to your unique needs.</p>
                     <div className="w-fit mt-4 p-8 py-4 smooth cursor-pointer select-none border-2 border-orange-400 hover:bg-orange-400 hover:border-transparent hover:text-white active:scale-90 hover:scale-105">
                         Learn more

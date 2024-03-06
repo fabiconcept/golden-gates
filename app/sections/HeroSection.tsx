@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import Counter from "../components/AnimatedCountingNumbers";
 
 export default function HeroSection() {
+    
     return (
         <section className="pt-12 sm:px-24 md:px-8 px-4 grid md:grid-cols-2 grid-cols-1 gap-8 w-full max-w-[1400px] mx-auto">
             <div className="grid place-content-center sm:text-left text-center">
@@ -34,15 +36,24 @@ export default function HeroSection() {
                 />
                 <div className="absolute bottom-0 w-full sm:rounded-t-[5rem] rounded-t-[3rem] text-center bg-white p-4 sm:px-12 px-6 grid grid-cols-3 place-content-center">
                     <div className="flex flex-col items-center">
-                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">80M<span className="text-orange-400">+</span></h1>
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">
+                            <Counter value={8000}/>
+                            <span className="text-orange-400">+</span>
+                        </h1>
                         <span className="opacity-50 sm:text-base text-sm">In Loan Volume</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">2k<span className="text-orange-400">+</span></h1>
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">
+                            <Counter value={2000} />
+                            <span className="text-orange-400">+</span>
+                        </h1>
                         <span className="opacity-50 sm:text-base text-sm">Satisfied clients</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">1k<span className="text-orange-400">+</span></h1>
+                        <h1 className="sm:text-4xl text-xl font-semibold opacity-80">
+                            <Counter value={1000} />
+                            <span className="text-orange-400">+</span>
+                        </h1>
                         <span className="opacity-50 sm:text-base text-sm">Loan programs</span>
                     </div>
                 </div>

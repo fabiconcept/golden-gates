@@ -1,6 +1,6 @@
 import ClientsSection from "./sections/ClientsSection";
 import EasyService from "./sections/EasyService";
-import FototerSection from "./sections/FototerSection";
+import FooterSection from "./sections/FooterSection";
 import GetApproved from "./sections/GetApproved";
 import HeroSection from "./sections/HeroSection";
 import InfoSection from "./sections/Info";
@@ -19,7 +19,8 @@ export default function page() {
             <EasyService />
             <Reviews />
             <InfoSection />
-            <FototerSection />
+            
+            <FooterSection />
         </div>
     )
 }

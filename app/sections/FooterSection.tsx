@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaAt, FaPhone } from "react-icons/fa6";
 
-export default function FototerSection() {
+export default function FooterSection() {
     const todayYr: number = new Date().getFullYear();
     return (
         <footer className="py-12 sm:px-24 px-8 bg-orange-400 text-white">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function InfoSection() {
     return (
-        <section className="py-24 sm:px-24 px-8 grided-black text-center">
+        <section className="py-24 sm:px-24 px-8 grided-black h-fit text-center flex flex-col">
             <h3 className="md:text-4xl sm:text-3xl text-2xl max-w-2xl mx-auto">
                 Discover <span className="text-orange-400">happiness in homeownership</span> with tailored mortgage solutions. Your dream home journey starts here.
             </h3>
