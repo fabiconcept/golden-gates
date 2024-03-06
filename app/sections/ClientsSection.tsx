@@ -9,7 +9,7 @@ export default function ClientsSection() {
                     alt=""
                     height={500}
                     width={500}
-                    className="sm:max-h-8 max-h-6 min-h-6 h-6 w-fit object-contain"
+                    className="sm:max-h-8 max-h-4 min-h-6 h-6 w-fit object-contain"
                 />
                 <Image
                     src={"https://golden-gates.sirv.com/cnbc.svg"}
@@ -37,7 +37,7 @@ export default function ClientsSection() {
                     alt=""
                     height={500}
                     width={500}
-                    className="max-h-6 min-h-6 h-6 w-fit object-contain"
+                    className="sm:max-h-6 max-h-4 min-h-6 h-6 w-fit object-contain"
                 />
             </div>
         </section>
