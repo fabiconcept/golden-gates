@@ -37,21 +37,21 @@ export default function HeroSection() {
                 <div className="absolute bottom-0 w-full sm:rounded-t-[5rem] rounded-t-[3rem] text-center bg-white p-4 sm:px-12 px-6 grid grid-cols-3 place-content-center">
                     <div className="flex flex-col items-center">
                         <h1 className="sm:text-4xl text-xl font-semibold opacity-80">
-                            <Counter value={8000}/>
+                            <Counter key={"8k"} value={8000}/>
                             <span className="text-orange-400">+</span>
                         </h1>
                         <span className="opacity-50 sm:text-base text-sm">In Loan Volume</span>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="sm:text-4xl text-xl font-semibold opacity-80">
-                            <Counter value={2000} />
+                            <Counter key={"2k"} value={2000} />
                             <span className="text-orange-400">+</span>
                         </h1>
                         <span className="opacity-50 sm:text-base text-sm">Satisfied clients</span>
                     </div>
                     <div className="flex flex-col items-center">
                         <h1 className="sm:text-4xl text-xl font-semibold opacity-80">
-                            <Counter value={1000} />
+                            <Counter key={"1k"} value={1000} />
                             <span className="text-orange-400">+</span>
                         </h1>
                         <span className="opacity-50 sm:text-base text-sm">Loan programs</span>
