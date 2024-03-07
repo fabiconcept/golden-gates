@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaAt, FaPhone } from "react-icons/fa6";
+import Counter from "../components/AnimatedCountingNumbers";
 
 export default function FooterSection() {
     const todayYr: number = new Date().getFullYear();
@@ -15,7 +16,9 @@ export default function FooterSection() {
                         width={500}
                         className="h-8 object-contain w-fit"
                     />
-                    <p className="max-w-sm mt-4 opacity-80">We are ready to help you find a comfort home based on what you need. So what are you waiting for?</p>
+                    <p className="max-w-sm mt-4 opacity-80">
+                        We are ready to help your dreams become a reality. Join the Goldwater family of over 2,000 happy families. Experience award winning rates and customer service without the hassle.
+                    </p>
                 </div>
                 <div className="grid gap-2 h-fit my-4">
                     <span id="contact" className="text-black font-semibold uppercase">Contact us:</span>
