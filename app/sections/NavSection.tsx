@@ -29,7 +29,7 @@ export default function NavSection() {
                 </div>
 
                 <section className="flex gap-4 items-center">
-                    <Link href={"goldwater.floify.com"} target="_blank" className="bg-orange-400 smooth text-white p-8 py-3 font-semibold cursor-pointer active:scale-90 hover:scale-105 select-none sm:block hidden">
+                    <Link href={"https://goldwater.floify.com"} target="_blank" className="bg-orange-400 smooth text-white p-8 py-3 font-semibold cursor-pointer active:scale-90 hover:scale-105 select-none sm:block hidden">
                         Apply now
                     </Link>
                     <div className='w-[25px] grid md:hidden gap-1 cursor-pointer smooth z-30' onClick={() => setOpenNav(!openNav)}>

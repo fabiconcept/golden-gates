@@ -49,7 +49,7 @@ export default function EasyService() {
                     transition={{ duration: 0.5 }} 
                     className="flex flex-col gap-6 sm:px-0 px-2"
                 >
-                    <h1 className="sm:text-5xl text-3xl sm:text-left text-center uppercase font-semibold">Easy steps to use our service</h1>
+                    <h1 className="sm:text-5xl text-3xl sm:text-left text-center uppercase font-semibold">Easy Steps To Get Started</h1>
                     <div className="flex gap-4 mt-8">
                         <div className="bg-orange-400 text-3xl px-2 py-1 h-fit text-white">01</div>
                         <div>

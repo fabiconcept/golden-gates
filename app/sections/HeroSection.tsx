@@ -17,11 +17,8 @@ export default function HeroSection() {
                 </p>
 
                 <div className="mt-6 flex gap-4 md:pr-12 text-center">
-                    <Link href={"goldwater.floify.com"} target="_blank" className="flex-1 p-8 py-4 smooth cursor-pointer select-none bg-orange-400 border-2 border-transparent text-white active:scale-90 hover:scale-105 grid place-items-center">
+                    <Link href={"https://goldwater.floify.com"} target="_blank" className="flex-1 p-8 py-4 smooth cursor-pointer select-none bg-orange-400 border-2 border-transparent text-white active:scale-90 hover:scale-105 grid place-items-center">
                         Apply Now
-                    </Link>
-                    <Link href={"#contact"} className="flex-1 p-8 py-4 smooth cursor-pointer select-none text-orange-400 border-2 border-orange-400 hover:bg-orange-400 hover:border-transparent hover:text-white active:scale-90 hover:scale-105 grid place-items-center">
-                        Contact us
                     </Link>
                 </div>
             </div>
