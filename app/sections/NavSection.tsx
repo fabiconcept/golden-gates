@@ -58,6 +58,9 @@ export default function NavSection() {
                         <Link href={"#whyus"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Why us</Link>
                         <Link href={"#easysteps"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Easy steps</Link>
                         <Link href={"#clientsreviews"} className="px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 hover:text-orange-400">Clients reviews</Link>
+                        <Link href={"https://goldwater.floify.com"} target="_blank" className="bg-orange-400 smooth text-white p-8 py-3 font-semibold cursor-pointer active:scale-90 hover:scale-105 select-none sm:hidden block">
+                            Apply now
+                        </Link>
                     </div>
             </section>
         </>
