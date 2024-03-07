@@ -40,7 +40,7 @@ export default function GetApproved() {
 
     return (
         <section className="py-16 sm:px-24 md:px-8 px-4 bg-white/50" id="service">
-            <section className="max-w-[1400px] mx-auto grid md:grid-cols-2 grid-cols-1 w-full md:gap-12 gap-24">
+            <section className="max-w-[1400px] mx-auto grid md:grid-cols-2 grid-cols-1 w-full md:gap-12 sm:gap-24 gap-8">
                 <motion.div 
                     ref={section01Ref}
                     animate={controls}
@@ -68,6 +68,7 @@ export default function GetApproved() {
                     ref={section02Ref}
                     animate={controls02}
                     initial="hidden"
+                    className="flex flex-col"
                     variants={fadeInOutVariants02}
                     transition={{ duration: 0.5 }}
                 >
