@@ -10,8 +10,8 @@ import WhyUs from "./sections/WhyUs";
 
 export default function page() {
     return (
-        <div className="bg-[rgb(0,0,0,0.0125)] scroll-smooth min-h-screen grided-black overflow-x-hidden">
-            <NavSection />
+        <div className="bg-[rgb(0,0,0,0.0125)] scroll-smooth min-h-screen grided-black overflow-x-hidden relative">
+            <NavSection main={0} />
             <HeroSection />
             <ClientsSection />
             <GetApproved />

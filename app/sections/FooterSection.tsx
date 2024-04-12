@@ -16,7 +16,7 @@ export default function FooterSection() {
                         className="h-8 object-contain w-fit"
                     />
                     <p className="max-w-sm mt-4 opacity-80">
-                        We are ready to help your dreams become a reality. Join the Goldwater family of over 2,000 happy families. Experience award winning rates and customer service without the hassle.
+                        We are ready to help your dreams become a reality. Join the Goldwater family of over 200 happy families. Experience award winning rates and customer service without the hassle.
                     </p>
                 </div>
                 <div className="grid gap-2 h-fit my-4">

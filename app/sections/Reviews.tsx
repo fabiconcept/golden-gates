@@ -33,14 +33,14 @@ export default function Reviews() {
                                 </div>
                                 <div className="mt-4">
                                     <h5 className="font-semibold">{review.reviewTitle}</h5>
-                                    <p className="opacity-50">{review.reviewContent}</p>
+                                    <p className="opacity-50" dangerouslySetInnerHTML={review.reviewContent}></p>
                                 </div>
-                                <div className="flex gap-3 items-center py-4">
-                                    <span className="text-yellow-400"><FaStar /></span>
-                                    <span className="text-yellow-400"><FaStar /></span>
-                                    <span className="text-yellow-400"><FaStar /></span>
-                                    <span className="text-yellow-400"><FaStar /></span>
-                                    <span className="text-yellow-400"><FaStar /></span>
+                                <div className="flex gap-2 items-center py-4">
+                                    <span className="hover:scale-105 text-yellow-400"><FaStar /></span>
+                                    <span className="hover:scale-105 text-yellow-400"><FaStar /></span>
+                                    <span className="hover:scale-105 text-yellow-400"><FaStar /></span>
+                                    <span className="hover:scale-105 text-yellow-400"><FaStar /></span>
+                                    <span className="hover:scale-105 text-yellow-400"><FaStar /></span>
                                 </div>
                             </div>
                         </SwiperSlide>
