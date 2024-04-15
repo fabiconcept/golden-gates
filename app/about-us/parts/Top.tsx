@@ -74,7 +74,7 @@ export default function Top() {
                     height={2992}
                     width={3992}
                     priority
-                    className="h-[clamp(20rem,75vh,39rem)] sm:object-cover object-contain"
+                    className="h-[clamp(20rem,75vh,39rem)] object-cover"
                 />
             </motion.div>
         </section>
