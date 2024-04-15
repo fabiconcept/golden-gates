@@ -6,6 +6,58 @@ import GeneralMortgageCollection from "./components/GeneralMortgageCollection";
 import FeesandProcessCollection from "./components/FeesandProcessCollection";
 import GeneralFAQCollection from "./components/GeneralFAQCollection";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const faqMetadata: Metadata = {
+    title: "Goldwater Home Loans - FAQ",
+    description: "Find answers to frequently asked questions about home loans, mortgage financing, and homeownership.",
+    keywords: ["Home Loans", "Mortgage Financing", "FAQ", "Homeownership", "Goldwater Home Loans", "Frequently Asked Questions"],
+    authors: [{ name: "Favour Tochukwu Ajokubi" }],
+    creator: "Favour Ajokubi",
+    openGraph: {
+        title: "Goldwater Home Loans - FAQ",
+        description: "Find answers to frequently asked questions about home loans, mortgage financing, and homeownership.",
+        url: "https://goldwaterloans.com/faq",
+        locale: "en_US",
+        images: [
+            {
+                url: "https://golden-gates.sirv.com/faq.jpg",
+                width: "1200",
+                height: "630",
+                alt: "Photo of a FAQ"
+            }
+        ]
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Goldwater Home Loans - FAQ',
+        description: 'Find answers to frequently asked questions about home loans, mortgage financing, and homeownership.',
+        images: ['https://golden-gates.sirv.com/faq.jpg'],
+    },
+    icons: {
+        icon: 'icons/android-chrome-192x192.png',
+        shortcut: 'icons/android-chrome-512x512.png',
+        apple: 'icons/apple-touch-icon.png',
+        other: {
+            rel: 'icons/favicon-16x16.png',
+            url: 'icons/favicon-32x32.png',
+        },
+    },
+    robots: {
+        index: true,
+        follow: true,
+        nocache: false,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: false,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
+};
+
 
 export default function FaQPage() {
     return (
