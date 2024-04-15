@@ -11,7 +11,7 @@ export default function NavSection({ main }: { main: number }) {
             <nav className={`
                 flex bg-white/80 backdrop-blur justify-between sm:p-4 p-6 sm:px-12 px-6 items-center border-b border-b-black/10 sticky top-0 z-30               
             `}>
-                <section className="flex items-center gap-12">
+                <Link href={"/"} className="flex items-center gap-12">
                     <Image
                         src={"https://golden-gates.sirv.com/logo.png"}
                         alt="Logo black"
@@ -21,16 +21,16 @@ export default function NavSection({ main }: { main: number }) {
                         className="h-8 object-contain w-fit z-30"
                     />
 
-                </section>
+                </Link>
                 <div className="items-center list-none md:flex hidden">
                     <Link href={main === 0? "#" : "/" } className={`px-8 hover:font-semibold smooth whitespace-nowrap ${main ===0 ? "text-orange-400": "cursor-pointer active:scale-90 hover:text-orange-400"}`}>
                         Home
                     </Link>
-                    <Link href={main === 1 ? "#" : "/about-us"} className={`px-8 hover:font-semibold smooth whitespace-nowrap ${main === 1 ? "text-orange-400" : "cursor-pointer active:scale-90 hover:text-orange-400"}`}>
-                        About us
-                    </Link>
                     <Link href={main === 2 ? "#" : "/faq"} className={`px-8 hover:font-semibold smooth whitespace-nowrap ${main === 2 ? "text-orange-400" : "cursor-pointer active:scale-90 hover:text-orange-400"}`}>
                         FaQ
+                    </Link>
+                    <Link href={main === 1 ? "#" : "/about-us"} className={`px-8 hover:font-semibold smooth whitespace-nowrap ${main === 1 ? "text-orange-400" : "cursor-pointer active:scale-90 hover:text-orange-400"}`}>
+                        About us
                     </Link>
                 </div>
 
@@ -61,8 +61,8 @@ export default function NavSection({ main }: { main: number }) {
             `}>
                     <div className="w-full h-full text-xl text-center p-[5rem] grid gap-8 place-content-center">
                     <Link onClick={() => setOpenNav(false)} href={main === 0 ? "#" : "/"} className={`px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 ${main === 0 ? "text-orange-400" : "hover:text-orange-400"}`}>Home</Link>
-                    <Link onClick={() => setOpenNav(false)} href={main === 1 ? "#" : "/about-us"} className={`px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 ${main === 1 ? "text-orange-400" : "hover:text-orange-400"}`}>About us</Link>
                     <Link onClick={() => setOpenNav(false)} href={main === 2 ? "#" : "/faq"} className={`px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 ${main === 2 ? "text-orange-400" : "hover:text-orange-400"}`}>FaQ</Link>
+                    <Link onClick={() => setOpenNav(false)} href={main === 1 ? "#" : "/about-us"} className={`px-8 hover:font-semibold smooth whitespace-nowrap cursor-pointer active:scale-90 ${main === 1 ? "text-orange-400" : "hover:text-orange-400"}`}>About us</Link>
                         <Link onClick={()=>setOpenNav(false)} href={"https://goldwater.floify.com"} target="_blank" className="bg-orange-400 smooth text-white p-8 py-3 font-semibold cursor-pointer active:scale-90 hover:scale-105 select-none sm:hidden block">
                             Apply now
                         </Link>

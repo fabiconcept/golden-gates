@@ -1,17 +1,22 @@
 import { FaMessage, FaQuestion } from "react-icons/fa6";
 import NavSection from "../sections/NavSection";
+import FooterSection from "../sections/FooterSection";
+import FHACollection from "./components/FHACollection";
+import GeneralMortgageCollection from "./components/GeneralMortgageCollection";
+import FeesandProcessCollection from "./components/FeesandProcessCollection";
+import GeneralFAQCollection from "./components/GeneralFAQCollection";
 
 export default function FaQPage() {
     return (
-        <div>
+        <div className="overflow-x-hidden">
             <NavSection main={2} />
-            <main className="p-6">
-                <section className="p-8 py-12 rounded-2xl bg-orange-50">
-                    <h3 className="text-3xl text-orange-600 sm:max-w-sm md:max-w-[80%]">
+            <section className="sm:p-6 p-3 grided-black">
+                <section className="p-8 py-12 rounded-2xl bg-orange-50 border border-orange-100">
+                    <h3 className="text-3xl text-orange-500 grided-white-wash sm:max-w-sm md:max-w-[80%]">
                         Looking for help? Here are our most frequently asked questions.
                     </h3>
                     <p className="sm:max-w-sm md:max-w-[80%] mt-2 text-orange-950 sm:text-base text-sm">
-                        Everything you need to know about Goldwater and our billing. Can&apos;t find the answer to a question you have? No worries, just click 
+                        Everything you need to know about Goldwater and our billing. Can&apos;t find the answer to a question you have? No worries, just click
                         <span className="px-2 bg-orange-200 rounded-2xl border border-orange-400/50 mx-1 cursor-pointer">I&apos;ve got a question</span> or <span className="px-2 bg-orange-200 rounded-2xl border border-orange-400/50 mx-1 cursor-pointer">Chat to our team</span>!
                     </p>
                 </section>
@@ -24,11 +29,16 @@ export default function FaQPage() {
                     </div>
                 </section>
 
-                <section>
-                    
+                <section className="flex flex-col gap-8">
+                    <GeneralFAQCollection />
+                    <FeesandProcessCollection />
+                    <GeneralMortgageCollection />
+                    <FHACollection />
                 </section>
 
-            </main>
+            </section>
+            <FooterSection />
         </div>
     )
 }
+// 

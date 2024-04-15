@@ -21,6 +21,11 @@
   background-size: 2em 2em;
 }
 
+.grided-white-wash {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.025) .1em, transparent .1em), linear-gradient(90deg, rgba(255, 255, 255, 0.025) .1em, transparent .1em);
+  background-size: 2em 2em;
+}
+
 .grided-black {
   background-image: linear-gradient(rgba(0, 0, 0, 0.015) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, 0.015) .1em, transparent .1em);
   background-size: 2em 2em;
