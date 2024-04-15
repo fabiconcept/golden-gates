@@ -33,9 +33,9 @@ export default function Card({ content, index, title }: { title: string, content
             initial="hidden"
             variants={index % 2 == 0 ? fadeInOutVariantsEven : fadeInOutVariants}
             transition={{ duration: 0.5 }}
-            className="bg-black/5 grided-white p-4 flex flex-col gap-3"
+            className="bg-black/5 grided-white p-4 flex flex-col gap-3 hover:bg-black/10 hover:scale-[1.005] group smooth"
         >
-            <h1 className="sm:text-2xl text-lg font-semibold">{title}</h1>
+            <h1 className="sm:text-2xl text-lg font-semibold group-hover:text-orange-400 smooth">{title}</h1>
             <p>
                 {content}
             </p>

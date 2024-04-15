@@ -5,6 +5,7 @@ import FHACollection from "./components/FHACollection";
 import GeneralMortgageCollection from "./components/GeneralMortgageCollection";
 import FeesandProcessCollection from "./components/FeesandProcessCollection";
 import GeneralFAQCollection from "./components/GeneralFAQCollection";
+import Link from "next/link";
 
 export default function FaQPage() {
     return (
@@ -21,12 +22,12 @@ export default function FaQPage() {
                     </p>
                 </section>
                 <section className="flex gap-3 my-5 flex-wrap">
-                    <div className="smooth flex-1 rounded-lg p-4 border-2 border-orange-400 text-center flex items-center justify-center gap-2 active:scale-90 cursor-pointer hover:bg-orange-400 hover:text-white">
+                    <Link href={"tel:+17706569593"} className="smooth flex-1 rounded-lg p-4 border-2 border-orange-400 text-center flex items-center justify-center gap-2 active:scale-90 cursor-pointer hover:bg-orange-400 hover:text-white min-w-[15rem]">
                         <FaQuestion /> I&apos;ve got a question
-                    </div>
-                    <div className="smooth flex-1 rounded-lg p-4 border-2 border-orange-400 text-center flex items-center justify-center gap-2 active:scale-90 cursor-pointer bg-orange-400 text-white">
+                    </Link>
+                    <Link href={"mailto:info@goldwaterfm.com"} className="smooth flex-1 rounded-lg p-4 border-2 border-orange-400 text-center flex items-center justify-center gap-2 active:scale-90 cursor-pointer bg-orange-400 text-white min-w-[15rem]">
                         <FaMessage /> Chat with our team
-                    </div>
+                    </Link>
                 </section>
 
                 <section className="flex flex-col gap-8">
