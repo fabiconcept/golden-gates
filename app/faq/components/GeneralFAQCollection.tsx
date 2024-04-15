@@ -33,7 +33,7 @@ export default function GeneralFAQCollection() {
                 variants={fadeInOutVariants}
                 transition={{ duration: 0.5 }}
             >
-                <div className="md:text-3xl sm:text-xl text-lg pt-2 pb-6 border-b border-b-white/50">
+                <div className="md:text-3xl text-xl font-semibold pt-2 pb-6 border-b border-b-white/50">
                     General FAQ
                     <p className="sm:text-base text-sm opacity-80">Find every commonly asked questions about the mortgage process and general information about obtaining a mortgage.</p>
                 </div>

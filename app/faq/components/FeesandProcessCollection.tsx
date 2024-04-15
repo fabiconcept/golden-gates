@@ -33,7 +33,7 @@ export default function FeesandProcessCollection() {
                 variants={fadeInOutVariants}
                 transition={{ duration: 0.5 }}
             >
-                <div className="md:text-3xl sm:text-xl text-lg pt-2 pb-6 border-b border-b-white/50">
+                <div className="md:text-3xl text-xl font-semibold pt-2 pb-6 border-b border-b-white/50">
                     Fees and Process
                     <p className="sm:text-base text-sm opacity-80">Find every information about the fees associated with obtaining a mortgage and outlines the mortgage process.</p>
                 </div>
