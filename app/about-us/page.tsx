@@ -10,7 +10,7 @@ import Reviews from "../sections/Reviews";
 
 export default function FaQPage() {
     return (
-        <div className="overflow-x-hidden">
+        <div className="overflow-x-hidden bg-[rgb(0,0,0,0.0125)]">
             <NavSection main={1} />
             <main className="grided-black">
                 <Top />

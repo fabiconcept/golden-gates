@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function FaQPage() {
     return (
-        <div className="overflow-x-hidden">
+        <div className="overflow-x-hidden bg-[rgb(0,0,0,0.0125)]">
             <NavSection main={2} />
             <section className="sm:p-6 p-3 grided-black">
                 <section className="p-8 py-12 rounded-2xl bg-orange-50 border border-orange-100">
