@@ -1,4 +1,3 @@
-"use client"
 import NavSection from "../sections/NavSection";
 import FooterSection from "../sections/FooterSection";
 import InfoAboutSection from "../sections/InfoAbout";
@@ -9,7 +8,7 @@ import Card from "./parts/Card";
 import Reviews from "../sections/Reviews";
 import { Metadata } from "next";
 
-export const aboutMetadata: Metadata = {
+export const metadata: Metadata = {
     title: "Goldwater Home Loans - About Us",
     description: "Learn more about Goldwater Home Loans, your trusted partner for personalized and transparent home financing solutions.",
     keywords: ["Home Loans", "Mortgage Financing", "About Us", "Homeownership", "Goldwater Home Loans", "Company Overview"],

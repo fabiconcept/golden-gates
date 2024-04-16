@@ -8,7 +8,7 @@ import GeneralFAQCollection from "./components/GeneralFAQCollection";
 import Link from "next/link";
 import { Metadata } from "next";
 
-export const faqMetadata: Metadata = {
+export const metadata: Metadata = {
     title: "Goldwater Home Loans - FAQ",
     description: "Find answers to frequently asked questions about home loans, mortgage financing, and homeownership.",
     keywords: ["Home Loans", "Mortgage Financing", "FAQ", "Homeownership", "Goldwater Home Loans", "Frequently Asked Questions"],

@@ -44,7 +44,7 @@ const QA = ({ Q, A, sn }: { Q: string, A: { __html: string | TrustedHTML }, sn: 
                     initial="collapsed"
                     animate={controls}
                     variants={variants}
-                    className="h-0 opacity-0 flex flex-col gap-3 px-3 md:text-base text-sm"
+                    className="h-0 opacity-0 flex flex-col gap-3 px-3 md:text-base text-sm drop-shadow-md"
                     transition={transition}
                     dangerouslySetInnerHTML={A}
                 >
