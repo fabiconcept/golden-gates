@@ -56,7 +56,7 @@ export default function Top() {
                     Founded in 2019 by Vin Wilkinson, Goldwater was born out of a vision to redefine the home buying experience. After 5 years of working within various mortgage brokerages, Vin recognized an opportunity to create something exceptional &ndash; a company dedicated to providing unparalleled service and support to clients throughout their home buying journey.
                 </p>
 
-                <Link href={"#down"} className="flex gap-2 items-center md:absolute md:bottom-12 md:left-12">
+                <Link href={"#down"} className="flex gap-2 items-center md:absolute md:bottom-12 md:left-12 animate-bounce">
                     <FaArrowDown />
                     Scroll down
                 </Link>
