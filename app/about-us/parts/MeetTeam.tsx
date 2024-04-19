@@ -10,7 +10,7 @@ export default function MeetTeam() {
         <section className="flex flex-col gap-4 sm:p-12 md:px-32 sm:px-20 px-6 p-3">
             <h1 className="text-4xl font-semibold text-center">Meet The Team</h1>
             <p className="text-center opacity-60">Get to know the talented individuals who make <span className="text-orange-500">Goldwater</span> a success.</p>
-            <div className="mt-2 grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-x-6 gap-y-8 items-center">
+            <div className="mt-2 grid grid-cols-[repeat(auto-fill,minmax(15rem,1fr))] gap-x-6 gap-y-8 justify-center">
                 {teamList.map((team, index) => (
                     <TeamMember
                         avatar={team.avatar}

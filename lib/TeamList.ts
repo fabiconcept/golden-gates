@@ -22,7 +22,7 @@ export const teamList: teamData[] = [
     },
     {
         fullName: "Caleb Boykin",
-        avatar: "https://golden-gates.sirv.com/team/Edmond%20Tucker.png",
+        avatar: "https://golden-gates.sirv.com/team/Caleb%20Boyki.jpg",
         role: "Senior Loan Officer"
     },
     {
@@ -47,7 +47,7 @@ export const teamList: teamData[] = [
     },
     {
         fullName: "Jaime Rodriguez",
-        avatar: "https://golden-gates.sirv.com/team/Chris%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/Jaime%20Rodriguez.JPG",
         role: "Marketing Manager"
     },
     {
