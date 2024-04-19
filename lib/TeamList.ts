@@ -7,22 +7,27 @@ type teamData = {
 export const teamList: teamData[] = [
     {
         fullName: "Calvin ‘Vin’ Wilkinson",
-        avatar: "https://golden-gates.sirv.com/team/Chris%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/Calvin%20Wilkinson.png",
         role: "President and CEO"
     },
     {
         fullName: "Chris Wilkinson",
-        avatar: "https://golden-gates.sirv.com/team/Calvin%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/Chris%20Wilkinson.png",
         role: "Senior Vice President and CFO"
     },
     {
         fullName: "Edmond Tucker",
-        avatar: "https://golden-gates.sirv.com/team/Calvin%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/Edmond%20Tucker.png",
+        role: "Senior Loan Officer"
+    },
+    {
+        fullName: "Caleb Boykin",
+        avatar: "https://golden-gates.sirv.com/team/Edmond%20Tucker.png",
         role: "Senior Loan Officer"
     },
     {
         fullName: "Emmanuel Mbaba",
-        avatar: "https://golden-gates.sirv.com/team/Emmanuel%20Mbaba.png",
+        avatar: "https://golden-gates.sirv.com/team/Emmanuel.jpg",
         role: "CTO"
     },
     {
@@ -37,7 +42,7 @@ export const teamList: teamData[] = [
     },
     {
         fullName: "Samantha Samuel",
-        avatar: "https://golden-gates.sirv.com/team/Chris%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/Samantha%20Samuel.png",
         role: "Senior Loan Coordinator"
     },
     {
@@ -47,7 +52,7 @@ export const teamList: teamData[] = [
     },
     {
         fullName: "Gloria Andrews",
-        avatar: "https://golden-gates.sirv.com/team/Chris%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/Gloria%20Andrews.png",
         role: "Compliance Secretary"
     },
 ]
