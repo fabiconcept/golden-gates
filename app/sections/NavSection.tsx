@@ -13,7 +13,7 @@ export default function NavSection({ main }: { main: number }) {
             `}>
                 <Link href={"/"} className="flex items-center gap-12">
                     <Image
-                        src={"https://golden-gates.sirv.com/logo.png"}
+                        src={"https://golden-gates.sirv.com/logo-main-01.png"}
                         alt="Logo black"
                         priority
                         height={200}
