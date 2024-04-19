@@ -27,7 +27,7 @@ export default function Growing() {
     return (
         <motion.section
             id="down"
-            className="flex flex-col items-center p-12 gap-4"
+            className="flex flex-col items-center sm:p-12 p-6 gap-4"
             ref={section01Ref}
             animate={controls}
             initial="hidden"
@@ -35,7 +35,7 @@ export default function Growing() {
             transition={{ duration: 0.5 }}
         >
             <h1 className="sm:text-3xl text-2xl font-semibold text-center">We&apos;re Growing Fast</h1>
-            <div className="w-full text-center bg-white p-4 sm:px-12 px-4 grid grid-cols-3 place-content-center">
+            <div className="w-full text-center bg-white p-4 sm:px-12 px-4 md:gap-8 sm:gap-6 gap-4 flex sm:justify-around justify-between">
                 <div className="flex flex-col items-center">
                     <h1 className="sm:text-3xl text-lg font-semibold opacity-80">
                         <Counter key={"8k"} value={50000000} />
