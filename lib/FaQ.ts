@@ -4,28 +4,12 @@ interface FAQItem {
 }
 
 interface FAQs {
-    generalFAQ: FAQItem[];
     feesAndProcess: FAQItem[];
     generalMortgageQuestions: FAQItem[];
     fhaAndFirstTimeHomebuyers: FAQItem[];
 }
 
 export const FaQs: FAQs = {
-    generalFAQ: [
-        {
-            Q: "What are the benefits of working with a mortgage broker like Goldwater?",
-            A: { __html: "<p>As a mortgage broker, Goldwater has access to a wide network of lenders and loan products, allowing us to find the best financing options tailored to your specific needs and circumstances.</p><p>We offer personalized guidance, competitive rates, and streamlined processes to simplify your home buying journey.</p>" }
-        },
-        {
-            Q: "What is the difference between a fixed-rate and adjustable-rate mortgage (ARM)?",
-            A: { __html: "<p>A fixed-rate mortgage maintains the same interest rate for the entire loan term, providing predictable monthly payments.</p><p>In contrast, an adjustable-rate mortgage (ARM) features an interest rate that may fluctuate over time, typically starting lower than fixed-rate options but potentially adjusting higher in the future.</p><p>Goldwater Mortgage assists clients in understanding the pros and cons of each option and selecting the most suitable mortgage for their needs.</p>" }
-        },
-        {
-            Q: "How long does the mortgage process take from application to closing?",
-            A: { __html: "<p>The timeline for the mortgage process can vary depending on factors such as the complexity of the loan, the efficiency of document submission, and the lender's processing times.</p><p>On average, the process takes between 30 to 45 days from application to closing. Goldwater Mortgage provides proactive communication and works diligently to expedite the process whenever possible.</p>" }
-        }
-    ],
-
     feesAndProcess: [
         {
             Q: "What fees are involved in obtaining a mortgage?",

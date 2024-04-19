@@ -4,7 +4,6 @@ import FooterSection from "../sections/FooterSection";
 import FHACollection from "./components/FHACollection";
 import GeneralMortgageCollection from "./components/GeneralMortgageCollection";
 import FeesandProcessCollection from "./components/FeesandProcessCollection";
-import GeneralFAQCollection from "./components/GeneralFAQCollection";
 import Link from "next/link";
 import { Metadata } from "next";
 
@@ -83,9 +82,8 @@ export default function FaQPage() {
                 </section>
 
                 <section className="flex flex-col gap-8">
-                    <GeneralFAQCollection />
-                    <FeesandProcessCollection />
                     <GeneralMortgageCollection />
+                    <FeesandProcessCollection />
                     <FHACollection />
                 </section>
 

@@ -43,7 +43,7 @@ export const reviewsData: reviewStructure[] = [
         "uid": "2",
         "avatar": "https://golden-gates.sirv.com/pexels-craig-adderley-3658708.jpg",
         "fullname": "Gabriella Bryson",
-        "profession": "Homeowner ",
+        "profession": "Home owner",
         "reviewTitle": "Exceptional Equity Access Assistance from Goldwater",
         "reviewContent": {__html: `
         Hi! Goldwater went above and beyond with helping me access equity in my home!
@@ -56,7 +56,7 @@ export const reviewsData: reviewStructure[] = [
         "uid": "3",
         "avatar": "https://golden-gates.sirv.com/model-2.jpg",
         "fullname": "Richard Appiah",
-        "profession": "",
+        "profession": "Home owner",
         "reviewTitle": "A Lifesaver in Mortgage Troubles",
         "reviewContent": {__html: `
             Goldwater is the lender you must choose. I was in desperate times because my previous lender out of nowhere decided to bump up my interest rate from 2.75 to 3.75 and luckily for me I met Calvin on facebook and he assured me all will be fine.

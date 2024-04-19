@@ -7,6 +7,7 @@ import { cardsSctions } from "@/lib/Cards";
 import Card from "./parts/Card";
 import Reviews from "../sections/Reviews";
 import { Metadata } from "next";
+import MeetTeam from "./parts/MeetTeam";
 
 export const metadata: Metadata = {
     title: "Goldwater Home Loans - About Us",
@@ -58,7 +59,6 @@ export const metadata: Metadata = {
     },
 };
 
-
 export default function FaQPage() {
     return (
         <div className="overflow-x-hidden bg-[rgb(0,0,0,0.0125)]">
@@ -72,6 +72,7 @@ export default function FaQPage() {
                         <Card content={card.content} title={card.title} index={index} key={index} />
                     ))}
                 </section>
+                <MeetTeam />
                 <Reviews />
                 <InfoAboutSection />
             </main>

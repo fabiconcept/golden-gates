@@ -5,7 +5,7 @@ export const cardsSctions = [
     },
     {
         title: "Our Accomplishments",
-        content: "Since our inception, Goldwater Mortgage has had the privilege of assisting over 100 clients in closing on their dream homes. Through our commitment to excellence and unwavering dedication, we've originated over $50,000,000 in loans to date, helping countless individuals and families turn their homeownership dreams into reality."
+        content: "Since our inception, Goldwater has had the privilege of assisting over 100 clients in closing on their dream homes. Through our commitment to excellence and unwavering dedication, we've originated over $50,000,000 in loans to date, helping countless individuals and families turn their homeownership dreams into reality."
     },
     {
         title: "Our Core Principles",

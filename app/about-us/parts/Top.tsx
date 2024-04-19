@@ -71,7 +71,7 @@ export default function Top() {
                 transition={{ duration: 0.5 }}
             >
                 <Image
-                    src={"https://golden-gates.sirv.com/about-img.jpg"}
+                    src={"https://golden-gates.sirv.com/aboutImg.jpg"}
                     alt="about-img"
                     height={2992}
                     width={3992}
