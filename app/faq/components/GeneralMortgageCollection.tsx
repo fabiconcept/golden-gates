@@ -8,7 +8,7 @@ import { FaQs } from '@/lib/FaQ';
 
 export default function GeneralMortgageCollection() {
 
-    const [section01Ref, inView01] = useInView({ threshold: 0.25 });
+    const [section01Ref, inView01] = useInView({ threshold: 0.1 });
     const controls = useAnimation();
 
     const fadeInOutVariants = {
