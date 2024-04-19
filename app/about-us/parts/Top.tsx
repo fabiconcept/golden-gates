@@ -9,7 +9,7 @@ import { FaArrowDown } from 'react-icons/fa6';
 
 export default function Top() {
     const [section01Ref, inView01] = useInView({ threshold: 0.25 });
-    const [section02Ref, inView02] = useInView({ threshold: 0.25 });
+    const [section02Ref, inView02] = useInView({ threshold: 0.1 });
 
     const controls = useAnimation();
     const controls2 = useAnimation();
