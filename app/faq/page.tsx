@@ -67,7 +67,7 @@ export default function FaQPage() {
                     <h3 className="text-3xl text-orange-500 grided-white-wash sm:max-w-sm md:max-w-[80%]">
                         Looking for help? Here are our most frequently asked questions.
                     </h3>
-                    <p className="sm:max-w-sm md:max-w-[80%] mt-2 text-orange-950 sm:text-base text-sm">
+                    <p className="sm:max-w-sm md:max-w-[80%] mt-2 text-orange-950 sm:text-base text-sm flex gap-1 flex-wrap">
                         Everything you need to know about Goldwater and our billing. Can&apos;t find the answer to a question you have? No worries, just click
                         <span className={"whitespace-nowrap"}><span className="px-2 bg-orange-200 rounded-2xl border border-orange-400/50 mx-1 cursor-pointer">I&apos;ve got a question</span> or <span className="px-2 bg-orange-200 rounded-2xl border border-orange-400/50 mx-1 cursor-pointer">Chat to our team</span></span>!
                     </p>
