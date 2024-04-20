@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         locale: "en_US",
         images: [
             {
-                url: "https://golden-gates.sirv.com/about-img.jpg",
+                url: "https://golden-gates.sirv.com/about-img-clear.jpg",
                 width: "1200",
                 height: "630",
                 alt: "Photo of About Us"
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Goldwater Home Loans - About Us',
         description: 'Learn more about Goldwater Home Loans, your trusted partner for personalized and transparent home financing solutions.',
-        images: ['https://golden-gates.sirv.com/about-img.jpg'],
+        images: ['https://golden-gates.sirv.com/about-img-clear.jpg'],
     },
     icons: {
         icon: 'icons/android-chrome-192x192.png',
