@@ -1,4 +1,4 @@
-import ClientsSection from "./sections/ClientsSection";
+// import ClientsSection from "./sections/ClientsSection";
 import EasyService from "./sections/EasyService";
 import FooterSection from "./sections/FooterSection";
 import GetApproved from "./sections/GetApproved";
@@ -13,13 +13,12 @@ export default function page() {
         <div className="bg-[rgb(0,0,0,0.0125)] scroll-smooth min-h-screen grided-black overflow-x-hidden relative">
             <NavSection main={0} />
             <HeroSection />
-            <ClientsSection />
+            {/* <ClientsSection /> */}
             <GetApproved />
             <WhyUs />
             <EasyService />
             <Reviews />
             <InfoSection />
-            
             <FooterSection />
         </div>
     )

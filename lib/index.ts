@@ -27,7 +27,7 @@ export const reviewsData: reviewStructure[] = [
         "uid": "1",
         "avatar": "https://golden-gates.sirv.com/pexels-david-kwewum-2743754.jpg",
         "fullname": "Max England",
-        "profession": "Mortgage broker",
+        "profession": "Home owner",
         "reviewTitle": "Exceptional Service at Goldwater Home Loans",
         "reviewContent": {__html: `
         Everyone at Goldwater Home Loans has been incredible. The home buying process can be one of the most stressful times in an adult's life, but the partners and associates at this company will help make one of the biggest decisions in your life incredibly easy.
