@@ -37,7 +37,7 @@ export const teamList: teamData[] = [
     },
     {
         fullName: "Tyler Traylor",
-        avatar: "https://golden-gates.sirv.com/team/Tyler%20Traylor%20.png",
+        avatar: "https://golden-gates.sirv.com/team/Tyler-Traylor%20.png",
         role: "Chief Culture Officer"
     },
     {
