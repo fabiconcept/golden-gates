@@ -50,15 +50,17 @@ const TeamMember = ({ name, role, avatar }: { name: string, role: string, avatar
             variants={fadeInOutVariants}
             transition={{ duration: 0.5 }}
         >
-            <div className="h-[20rem] border grid place-items-center overflow-hidden smooth hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[0.5rem_0.5rem_rgba(249,115,22)]">
-                <Image
-                    src={avatar}
-                    alt={`${name} photo`}
-                    height={2992}
-                    width={3992}
-                    priority
-                    className="h-full w-full object-cover"
-                />
+            <div className="h-[20rem] border overflow-hidden smooth hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[0.5rem_0.5rem_rgba(249,115,22)]">
+                <div className="h-full w-full grid place-items-center pointer-events-none select-none">
+                    <Image
+                        src={avatar}
+                        alt={`${name} photo`}
+                        height={2992}
+                        width={3992}
+                        priority
+                        className="h-full w-full object-cover pointer-events-none select-none"
+                    />
+                </div>
             </div>
             <div className="grid sm:text-left text-center">
                 <h3 className="text-2xl font-semibold">{name}</h3>
