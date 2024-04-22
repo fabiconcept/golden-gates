@@ -50,7 +50,7 @@ const TeamMember = ({ name, role, avatar }: { name: string, role: string, avatar
             variants={fadeInOutVariants}
             transition={{ duration: 0.5 }}
         >
-            <div className="h-[20rem] border flex justify-center items-end overflow-hidden smooth hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[0.5rem_0.5rem_rgba(249,115,22)]">
+            <div className="h-[20rem] border flex justify-center items-baseline overflow-hidden smooth hover:-translate-y-2 hover:-translate-x-2 hover:shadow-[0.5rem_0.5rem_rgba(249,115,22)]">
                 <Image
                     src={avatar}
                     alt={`${name} photo`}
