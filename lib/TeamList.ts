@@ -28,7 +28,7 @@ export const teamList: teamData[] = [
     {
         fullName: "Emmanuel Mbaba",
         avatar: "https://golden-gates.sirv.com/team/Emmanuel.jpg",
-        role: "CTO"
+        role: "Chief Technology Officer"
     },
     {
         fullName: "Akam Lawson",
