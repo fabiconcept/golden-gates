@@ -7,12 +7,12 @@ type teamData = {
 export const teamList: teamData[] = [
     {
         fullName: "Calvin ‘Vin’ Wilkinson",
-        avatar: "https://golden-gates.sirv.com/team/Calvin%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/89cdd9fd-773c-470b-941e-e221a5a83376.JPG",
         role: "President and CEO"
     },
     {
         fullName: "Chris Wilkinson",
-        avatar: "https://golden-gates.sirv.com/team/Chris%20Wilkinson.png",
+        avatar: "https://golden-gates.sirv.com/team/4f8fa970-d8a9-4cff-b69b-eb92b9a12fad.JPG",
         role: "Senior Vice President and CFO"
     },
     {
